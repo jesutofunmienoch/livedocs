@@ -54,7 +54,7 @@ const ShareModal = ({ roomId, collaborators, creatorId, currentUserType }: Share
             className="min-w-4 md:size-5"
           />
           <p className="mr-1 hidden sm:block">
-            Share
+            Invite User
           </p>
         </Button>
       </DialogTrigger>
