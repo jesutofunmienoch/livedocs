@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean-build": "next build --clean"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.2.11",
@@ -28,7 +29,7 @@
     "lexical": "^0.16.1",
     "lucide-react": "^0.424.0",
     "nanoid": "^5.0.7",
-    "next": "14.2.5",
+    "next": "^14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.4.0",
